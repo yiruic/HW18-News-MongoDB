@@ -1,27 +1,21 @@
 {
-  "name": "hw18-news-mongodb",
+  "name": "mongoose_skeleton",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "main": "server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/yiruic/HW18-News-MongoDB.git"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js",
+    "watch": "nodemon server.js"
   },
   "author": "",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/yiruic/HW18-News-MongoDB/issues"
-  },
-  "homepage": "https://github.com/yiruic/HW18-News-MongoDB#readme",
   "dependencies": {
+    "axios": "^0.16.2",
     "body-parser": "^1.18.2",
     "cheerio": "^1.0.0-rc.2",
     "express": "^4.16.3",
-    "express-handlebars": "^3.0.0",
-    "mongoose": "^5.0.10",
-    "request": "^2.85.0"
-  }
+    "mongoose": "^4.13.12",
+    "morgan": "^1.9.0"
+  },
+  "description": ""
 }
